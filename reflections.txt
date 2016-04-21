@@ -1,0 +1,23 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  
+* What new skills have you learned?
+  
+
+	Mostly how to use outside resources, like Stack Overflow and MDN, efficiently.
+
+* What has been easy?
+  
+
+	Basic organization and keeping clear where I am in the process of turning the mark up over into a working page
+
+* What has been difficult?
+  
+
+	Not getting frustrated when the first fifteen things I try don’t work.
+
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+	At the risk of sounding clichéd, the importance of “keep calm and carry on”
+
+
+
