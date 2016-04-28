@@ -1,0 +1,28 @@
+
+.border1{
+	border: 2px solid lightgrey	;
+	padding: 0px 10px 10px 10px;
+	box-shadow: 1px 8px 20px -3px grey;
+	max-width: 330px;
+}
+.h1{
+	text-align: center;
+}
+.image1{
+	padding-bottom: 15px;
+	padding-left: 25px;
+}
+.border2{
+	border: 2px solid lightgrey;
+	padding: 5px;
+	
+}
+.italic{
+	font-style: italic;
+	list-style-type: none;
+	padding: 0;
+}
+.bold{
+	font-weight: bold;
+	font-style: normal;
+}
