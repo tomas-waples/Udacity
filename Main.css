@@ -1,0 +1,139 @@
+main{
+	background-color: #C3FbF4;
+	margin-left: 10vw;
+	margin-right: 10vw;
+
+}
+
+@media screen and (min-width: 1000px){
+main{
+	margin-left: 20vw;
+	margin-right: 20vw;
+	}
+}
+
+@media screen and (max-width: 500px){
+main{
+	margin-left: 0;
+	margin-right: 0;
+	}
+}
+
+h1,h5, h4{ 
+	color: #2d3c49;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+
+}
+
+h3{
+	color: #2d3c49;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+h2{
+	color: #7d97ad;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+hr{
+	height:5px;
+	background-color: #7d97ad;
+}
+
+.UdacityLogo{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.name_and_title{
+	text-align: right;
+}
+
+.bio{
+	text-align: center;
+	vertical-align: text-top;
+}
+
+
+.bio_text{
+	display: inline;
+	
+}
+
+.featured_work{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.featured_work_header{
+	text-align: left;
+}
+
+.red_door_img{
+	max-height: 200px;
+}
+
+.resume_img{
+	max-height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.cornerstone_catering_img{
+	max-height: 200px;
+}
+
+.modal-content{
+	background-color: #E6E6FA;
+}
+
+.modal-title{
+	text-align: center;
+	color:  #B0171F;
+}
+
+.modal-body{
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+.header{
+	display: none;
+	text-align: center;
+	}
+
+.name_and_title{
+	text-align: center;
+	}
+
+.featured_work_header{
+	text-align: center;
+	}
+
+h5{
+	min-height: 50px;
+	min-width: 50px;
+	}
+
+.bio_text{
+	display: none;
+	}
+}
+
+@media screen and (min-width: 999px){
+
+.header_less_1000px{
+	display: none;
+	}
+
+h4{
+	display: none;
+	}	
+}
