@@ -1,139 +1,141 @@
-main{
-	background-color: #C3FbF4;
+body {
+	background-color: #c3fbf4;
 	margin-left: 10vw;
 	margin-right: 10vw;
-
 }
 
-@media screen and (min-width: 1000px){
-main{
-	margin-left: 20vw;
-	margin-right: 20vw;
+@media screen and (min-width: 1000px) {
+	body {
+		margin-left: 20vw;
+		margin-right: 20vw;
 	}
 }
 
-@media screen and (max-width: 500px){
-main{
-	margin-left: 0;
-	margin-right: 0;
+@media screen and (max-width: 500px) {
+	body {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
-h1,h5, h4{ 
+h1,
+h5, 
+h4 { 
 	color: #2d3c49;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-
 }
 
-h3{
+h3 {
 	color: #2d3c49;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 }
 
-h2{
+h2 {
 	color: #7d97ad;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	color: #2d3c49;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 }
 
-hr{
-	height:5px;
+hr {
+	height: 5px;
 	background-color: #7d97ad;
 }
 
-.UdacityLogo{
+.UdacityLogo {
 	max-height: 200px;
 	max-width: 200px;
 }
 
-.name_and_title{
+.name_and_title {
 	text-align: right;
 }
 
-.bio{
+.bio {
 	text-align: center;
 	vertical-align: text-top;
 }
 
 
-.bio_text{
+.bio_text {
 	display: inline;
-	
 }
 
-.featured_work{
+.featured_work {
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
 }
 
-.featured_work_header{
+.featured_work_header {
 	text-align: left;
 }
 
-.red_door_img{
+.red_door_img {
 	max-height: 200px;
 }
 
-.resume_img{
+.resume_img {
 	max-height: 200px;
 	display: block;
 	margin: 0 auto;
 }
 
-.cornerstone_catering_img{
+.cornerstone_catering_img {
 	max-height: 200px;
 }
 
-.modal-content{
-	background-color: #E6E6FA;
+.modal-content {
+	background-color: #e6e6fa;
 }
 
-.modal-title{
+.modal-title {
 	text-align: center;
-	color:  #B0171F;
+	color:  #b0171f;
 }
 
-.modal-body{
+.modal-body {
 	text-align: center;
 }
 
-
-
-@media screen and (max-width: 1000px){
-
-.header{
-	display: none;
-	text-align: center;
+@media screen and (max-width: 1000px) {
+	.header_greater_than_1000px {
+		display: none;
+		text-align: center;
 	}
 
-.name_and_title{
-	text-align: center;
+	.name_and_title {
+		text-align: center;
 	}
 
-.featured_work_header{
-	text-align: center;
+	.featured_work_header {
+		text-align: center;
 	}
 
-h5{
-	min-height: 50px;
-	min-width: 50px;
+	h5 {
+		min-height: 50px;
+		min-width: 50px;
 	}
 
-.bio_text{
-	display: none;
+	.bio_text {
+		display: none;
 	}
 }
 
-@media screen and (min-width: 999px){
+@media screen and (min-width: 999px) {
 
-.header_less_1000px{
-	display: none;
+	.header_less_1000px {
+		display: none;
 	}
 
-h4{
-	display: none;
+	h4 {
+		display: none;
 	}	
 }
